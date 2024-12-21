@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números de Armstrong</title>
+</head>
+<body>
+    <h1>Encontrar números de Armstrong</h1>
+    <button onclick="encontrarNumerosArmstrong()">Buscar números</button>
+    <textarea id="resultado" rows="20" cols="50" readonly></textarea>
+
+    <script>
+        function encontrarNumerosArmstrong() {
+            let resultado = document.getElementById('resultado');
+            resultado.value = '';
+
+            for (let num = 100; num <= 9999; num++) {
+                let numStr = num.toString();
+                let numDigitos = numStr.length;
+                let suma = 0;
+
+                for (let digito of numStr) {
+                    suma += Math.pow(parseInt(digito), numDigitos);
+                }
+
+                if (suma === num) {
+                    resultado.value += num + '\n';
+                }
+            }
+        }
+    </script>
+</body>
+</html>

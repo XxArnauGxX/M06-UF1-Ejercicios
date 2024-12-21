@@ -1,0 +1,47 @@
+### Ejercicio 01
+**Ventajas de la arquitectura cliente-servidor:**
+1. **Centralización de recursos:** Todos los datos están en el servidor, lo que facilita la administración y seguridad.
+2. **Escalabilidad:** Se pueden agregar más clientes sin afectar mucho al servidor.
+3. **Facilidad de mantenimiento:** Las actualizaciones solo se hacen en el servidor, no en todos los clientes.
+4. **Seguridad:** Es más fácil proteger los datos porque están centralizados.
+
+**Inconvenientes de la arquitectura cliente-servidor:**
+1. **Dependencia del servidor:** Si el servidor falla, los clientes no pueden funcionar.
+2. **Coste inicial alto:** Configurar y mantener un servidor puede ser caro.
+3. **Latencia:** La comunicación entre cliente y servidor puede generar retrasos.
+4. **Rendimiento limitado:** Si hay demasiados clientes, el servidor puede saturarse.
+
+---
+
+### Ejercicio 02
+**Diferencias entre Applets de Java y JSP:**
+1. **Applets de Java:**
+   - Son pequeños programas que se ejecutan en el navegador.
+   - Necesitan un entorno de ejecución de Java instalado en el cliente.
+   - Usados para aplicaciones interactivas en la interfaz del cliente.
+
+2. **JSP (Java Server Pages):**
+   - Son páginas web dinámicas que se ejecutan en el servidor.
+   - Generan contenido HTML que el cliente visualiza en su navegador.
+   - Usados para construir aplicaciones web del lado del servidor.
+
+---
+
+### Ejercicio 03
+La versión más actual de **ECMAScript** es **ES2024** (también conocida como ECMAScript 2024).
+
+**Cambios respecto a la versión anterior (ES2023):**
+1. Mejoras en el rendimiento y optimización de código.
+2. Nuevas funciones para trabajar con estructuras de datos complejas.
+
+---
+
+### Ejercicio 04
+**Navegadores que soportan al menos el 50% de las funcionalidades de ECMAScript:**
+1. Google Chrome
+2. Mozilla Firefox
+3. Microsoft Edge
+4. Safari
+
+Estos navegadores implementan actualizaciones constantes, por lo que suelen soportar las principales características de las nuevas versiones de ECMAScript.
+

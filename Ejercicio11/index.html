@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardar Nombre en Cookies</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <p>Escribe tu nombre: <input id="name" type="text" /></p>
+    <button id="execute" onclick="guardarNombreEnCookies()">Guardar</button>
+
+    <script>
+        function guardarNombreEnCookies() {
+            let nombre = document.getElementById('name').value;
+            if (nombre) {
+                document.cookie = `nombre=${nombre}; path=/; max-age=${60 * 60 * 24 * 30}`;
+                alert(`Nombre guardado en las cookies: ${nombre}`);
+            } else {
+                alert('Por favor, escribe un nombre antes de guardar.');
+            }
+        }
+    </script>
+</body>
+</html>
